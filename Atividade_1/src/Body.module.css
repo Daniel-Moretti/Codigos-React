@@ -1,0 +1,19 @@
+.conteiner {
+  width: 50vw;
+  height: 390px;
+  background-color: #bf2d2d;
+}
+
+.posicao {
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+  margin: 20px;
+}
+
+.square_conteiner {
+  display: flex;
+  width: 50vw;
+  flex-wrap: wrap;
+  gap: 10px;
+}

@@ -1,0 +1,14 @@
+.fundo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 121px;
+  background-color: #0b2447;
+}
+
+.fonte {
+  font-size: 45px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+}

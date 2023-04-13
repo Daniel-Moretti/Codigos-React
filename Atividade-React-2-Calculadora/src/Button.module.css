@@ -1,0 +1,14 @@
+.conteiner {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background-color: #615f5f;
+  color: white;
+  font-family: "Arial";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 5px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.estiloMenu {
+  background-color: #19376d;
+  display: flex;
+  width: 366px;
+  height: 760px;
+  justify-content: center;
+  align-items: center;
+}
+.estiloSection {
+  background-color: #576cbc;
+  display: flex;
+  width: 1146px;
+  height: 760px;
+  justify-content: center;
+  align-items: center;
+}
+
+.estiloFonte {
+  font-size: 45px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+}
