@@ -6,7 +6,7 @@ function Body() {
     return (
         <div className={estilo.posicao}>
             <div className={estilo.conteiner}>
-                <h1>Body</h1>
+                <h1></h1>
 
             </div>
             <div className={estilo.square_conteiner}>

@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+}
+
+.main {
+  background-color: rgb(241, 115, 115);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxMain {
+  width: 450px;
+  height: 300px;
+  background-color: rgb(180, 177, 177);
+  border: 2px solid black;
+}
+
+.positionNote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 8px;
+  padding: 7px;
+}

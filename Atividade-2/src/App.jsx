@@ -1,9 +1,15 @@
-import MesageBox from './MesageBox'
+import MessageBox from './MessageBox'
+import estilo from './App.module.css'
 function App() {
 
   return (
-    <div>
-      <MesageBox />
+    <div className={estilo.fundo}>
+
+      <div>
+        <MessageBox />
+
+      </div>
+
     </div>
   )
 }

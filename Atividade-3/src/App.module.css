@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+}
+
+.fundoMain {
+  display: flex;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fundoEsquerdo {
+  display: flex;
+  background-color: white;
+  width: 65vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.fundoDireito {
+  display: flex;
+  background-color: #8257e5;
+  width: 45vw;
+  height: 100vh;
+}

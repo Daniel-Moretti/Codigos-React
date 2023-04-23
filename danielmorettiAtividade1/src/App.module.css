@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+}
+
+.position {
+  display: flex;
+  gap: 9px;
+  justify-content: space-between;
+  margin: 11px;
+  flex-wrap: nowrap;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}

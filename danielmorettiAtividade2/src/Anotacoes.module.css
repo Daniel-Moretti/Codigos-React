@@ -1,0 +1,11 @@
+.boxNote {
+  width: 97%;
+  height: 32px;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  flex-direction: column;
+  font-family: Arial;
+}
