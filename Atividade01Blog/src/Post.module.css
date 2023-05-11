@@ -1,0 +1,28 @@
+.conteinerBlog {
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.pergunta {
+  font-size: 18px;
+}
+
+.nome {
+  color: #8695a4;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data {
+  border-right: 2px solid #adaaaa;
+}
+
+.bordaResposta {
+  border-bottom: 2px solid #adaaaa;
+}
