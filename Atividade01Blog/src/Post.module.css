@@ -1,5 +1,5 @@
 .conteinerBlog {
-  width: 44%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -12,6 +12,7 @@
 
 .nome {
   color: #8695a4;
+  margin-left: 30px;
 }
 
 .box {
@@ -21,8 +22,10 @@
 
 .data {
   border-right: 2px solid #adaaaa;
+  padding-right: 40px;
 }
 
 .bordaResposta {
   border-bottom: 2px solid #adaaaa;
+  padding-bottom: 25px;
 }
