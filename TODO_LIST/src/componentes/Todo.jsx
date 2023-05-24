@@ -46,12 +46,7 @@ function Todo() {
 
                 <div>
 
-                    {
-                        listaTarefas.map(item => (
-                            <ItemTodo item={item} />
-                        ))
-
-                    }
+                    {listaTarefas.map(item => (<ItemTodo item={item} />))}
 
                 </div>
 

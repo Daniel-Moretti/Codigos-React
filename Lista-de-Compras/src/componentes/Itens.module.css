@@ -1,0 +1,38 @@
+.conteinerItens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #666666;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #666666;
+    width: 70vw;
+    height: 6vh;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 3px 3px 3px 3px;
+    font-size: 14px;
+}
+
+.prod {
+    width: 35%;
+}
+
+.left {
+    text-align: left;
+}
+
+.left p b{
+    text-align: left;
+    color: rgb(58, 58, 58);
+}
+
+.right {
+    text-align: right;
+}
+
+.right p b{
+    text-align: right;
+    color: rgb(58, 58, 58);
+}
