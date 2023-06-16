@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import { ThemeContext } from "../context/ThemeContext"
+import { Link } from 'react-router-dom'
 
 function Header() {
 
@@ -8,7 +9,9 @@ function Header() {
     return (
         <header>
             <nav>
-                <p>Cadastrar | Listar</p>
+                <Link to="/Home" >Home</Link>
+                <Link to="/Cadastrar" >Cadastrar</Link>
+                <Link to="/Listar" >Listar</Link>
             </nav>
             <section>
                 <button className="btnTheme" onClick={changeTheme}>
