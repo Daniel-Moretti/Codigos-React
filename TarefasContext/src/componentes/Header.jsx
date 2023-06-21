@@ -9,9 +9,9 @@ function Header() {
     return (
         <header>
             <nav>
-                <Link to="/Home" >Home</Link>
+                <Link to="/" >Home</Link>
                 <Link to="/Cadastrar" >Cadastrar</Link>
-                <Link to="/Listar" >Listar</Link>
+                <Link to="/ListarTarefas" >Listar</Link>
             </nav>
             <section>
                 <button className="btnTheme" onClick={changeTheme}>

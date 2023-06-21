@@ -3,6 +3,7 @@ import './App.css'
 import Header from './componentes/Header'
 import { ThemeContext } from './context/ThemeContext';
 import useThemeContext from './hooks/useThemeContext';
+import { Outlet } from 'react-router-dom';
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
   return (
     <main className={`${theme !== 'dark' ? 'dark' : ''}`}>
       <Header />
+
+      <Outlet />
+
     </main>
   )
 }
