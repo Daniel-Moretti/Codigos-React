@@ -1,0 +1,80 @@
+.botao {
+    background-color: #927AC7;
+    color: white;
+    width: 78px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+.posicao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 45vh;
+}
+
+.resultado {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #927AC7;
+    font-size: 20px;
+}
+
+.valor {
+    color: #927AC7;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.resultadoFinal {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultadoFinal p {
+    color: #927AC7;
+    font-size: 30px;
+}
+
+.resultadoFinal span {
+    color: #927AC7;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+div div input {
+    width: 50%;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 4px 4px 4px 8px;
+    margin: 15px 2px 15px 2px;
+}
+
+.footer {
+    width: 100vw;
+    height: 25vh;
+    border-top: 4px solid black;
+}
+
+.footer p {
+    margin: 7px;
+}
+
+.footer ul {
+    margin: 9px;
+}
