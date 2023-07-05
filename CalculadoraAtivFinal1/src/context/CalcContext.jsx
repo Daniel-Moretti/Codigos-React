@@ -23,7 +23,7 @@ export const CalcProvider = ({ children }) => {
         } else {
             setValor('');
             setHistorico(['']);
-            console.log("chegou aqui")
+            console.log("chegou aqui") 
         }
 
         functionHistorico(novoValor);

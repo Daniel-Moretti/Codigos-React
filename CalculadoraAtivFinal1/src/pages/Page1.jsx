@@ -9,7 +9,7 @@ function Page1() {
 
     const { valor, setValor, functionHistorico } = useCalcContext();
 
-    setLoad(1);
+    setLoad(1); 
 
     return (
 
