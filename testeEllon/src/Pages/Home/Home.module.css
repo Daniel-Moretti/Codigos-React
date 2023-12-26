@@ -1,0 +1,98 @@
+.tela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    margin: 55px;
+    background-color: #ffffff66;
+    color: #3901ff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 32px;
+}
+
+.container {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 35px;
+}
+
+.containerButtons {
+    display: flex;
+    width: 80vw;
+    height: 5vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerButton {
+    display: flex;
+    height: 27px;
+    width: 135px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerValorBitcoin {
+    display: flex;
+    height: 35px;
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 8px 1px rgb(192 192 192);
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 14px;
+    background-color: #e9a74c;
+    border: none;
+    height: 25px;
+    width: 130px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.button:active {
+    height: 23px;
+    width: 98px;
+}
+
+.buttonCotMoedas {
+    border-radius: 14px;
+    background-color: #ff9d00;
+    border: none;
+    height: 40px;
+    width: 164px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonCotMoedas:hover {
+    opacity: 0.7;
+}
+
+.buttonCotMoedas:active {
+    height: 38px;
+    width: 162px;
+}
