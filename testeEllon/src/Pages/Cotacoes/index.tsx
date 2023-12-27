@@ -34,7 +34,6 @@ export default function Cotacoes() {
                 .then(response => response.json())
                 .then(data => {
                     setResultado(data.quotes)
-                    console.log(data.quotes)
                     setLoad(false)
                     setLoadInv(false)
                 })
@@ -54,7 +53,6 @@ export default function Cotacoes() {
         setLoadInv(!loadInv)
     }
 
-    console.log('Resultado: ' + load)
 
     return (
         <div className={estilo.tela}>
