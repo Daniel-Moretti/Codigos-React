@@ -10,35 +10,61 @@
 }
 
 .titulo {
-    margin: 55px;
-    background-color: #ffffff66;
-    color: #3901ff;
+    background-color: #2525254a;
+    color: #ffffff;
     padding: 5px 10px 5px 10px;
-    border-radius: 32px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    color: black;
+    font-weight: bold;
+    width: 25vw;
+    height: 3vh;
+    padding-left: 17.5vh;
 }
 
 .container {
     display: flex;
-    width: 80vw;
+    margin: 35px;
+    width: 50vw;
+    height: 50vh;
     flex-direction: column;
-    align-items: center;
     row-gap: 35px;
+    background-color: #fbfbfb63;
+    border-radius: 30px;
+    padding: 31px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 13px 13px #ffffff63;
 }
 
-.containerButtons {
+.box {
     display: flex;
-    width: 80vw;
-    height: 5vh;
+    width: 45vw;
+    height: 8vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.containerbuttons {
+    display: flex;
+    width: 45vw;
+    /*height: 5vh;*/
     justify-content: space-evenly;
     align-items: center;
 }
 
 .containerButton {
     display: flex;
-    height: 27px;
-    width: 135px;
-    justify-content: space-evenly;
+    height: 30px;
+    width: 150px;
     align-items: center;
+    justify-content: center;
 }
 
 .containerValorBitcoin {
@@ -49,11 +75,12 @@
     box-shadow: inset 0px 0px 8px 1px rgb(192 192 192);
     align-items: center;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.678);
 }
 
 .button {
     border-radius: 14px;
-    background-color: #e9a74c;
+    background-color: #183e65;
     border: none;
     height: 25px;
     width: 130px;
@@ -71,19 +98,20 @@
 
 .button:active {
     height: 23px;
-    width: 98px;
+    width: 128px;
 }
 
 .buttonCotMoedas {
     border-radius: 14px;
-    background-color: #ff9d00;
+    background-color: #183e65;
     border: none;
-    height: 40px;
-    width: 164px;
+    height: 55px;
+    width: 175px;
     color: white;
     font-size: 16px;
     text-decoration: none;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -93,6 +121,21 @@
 }
 
 .buttonCotMoedas:active {
-    height: 38px;
-    width: 162px;
+    height: 53px;
+    width: 173px;
 }
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #847c7c; /* Mude a cor conforme necessário */
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    animation: spin 1s linear infinite;
+    margin: 0px auto; /* Ajuste a margem conforme necessário */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

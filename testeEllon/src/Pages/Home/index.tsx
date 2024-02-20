@@ -17,20 +17,28 @@ export default function Home() {
 
     return (
         <div className={estilo.tela}>
-            <div className={estilo.titulo}>
-                <h1>Cotação Atual do Bitcoin</h1>
-            </div>
-
+            
             <div className={estilo.container}>
+                <div className={estilo.titulo}>
+                    <h1>Cotação Atual do Bitcoin</h1>
+                    <h2>em dólar</h2>
+                </div>
 
-                <div className={estilo.containerButtons}>
-                    <div className={estilo.containerButton}>
-                        <button onClick={Last} className={estilo.button}>Último preço</button>
+                <div className={estilo.box}>
+                    <div className={estilo.label}>
+                        <label >Obter cotação referente:</label>
                     </div>
+                    <div className={estilo.containerbuttons}>
+                        <div className={estilo.containerButton}>
+                            <button className={estilo.button} onClick={Last}>Preço atual</button>
+                        </div>
 
-                    <div className={estilo.containerButton}>
-                        <button onClick={Day} className={estilo.button}>Preço médio 24H</button>
+                        <div className={estilo.containerButton}>
+                            <button onClick={Day} className={estilo.button}>Preço médio 24H</button>
+                        </div>
+
                     </div>
+                    
                 </div>
 
                 <div className={estilo.containerValorBitcoin}>
@@ -44,6 +52,7 @@ export default function Home() {
                 </div>
 
                 <Link to='/Cotacoes' className={estilo.buttonCotMoedas}>
+                    <p>Ir para página de</p>
                     <p>Cotações de Moedas</p>
                 </Link>
 
